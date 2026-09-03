@@ -1,0 +1,61 @@
+import { StyleSheet } from "react-native";
+
+export const styles = StyleSheet.create({
+  container: { flex: 1 },
+  content: { padding: 20, paddingBottom: 60 },
+  title: { fontSize: 22, fontWeight: "bold", marginBottom: 16 },
+  sectionTitle: {
+    fontSize: 16,
+    fontWeight: "600",
+    marginTop: 24,
+    marginBottom: 8,
+  },
+  infoBox: {
+    backgroundColor: "#eef4ff",
+    borderRadius: 8,
+    padding: 14,
+    marginBottom: 8,
+  },
+  infoTitle: { fontWeight: "bold", marginBottom: 6 },
+  infoText: { fontSize: 13, lineHeight: 20, color: "#333" },
+  code: {
+    fontFamily: "monospace",
+    backgroundColor: "#dde9ff",
+    color: "#1a1a1a",
+  },
+  postCard: {
+    borderWidth: 1,
+    borderColor: "#ddd",
+    borderRadius: 6,
+    padding: 10,
+    marginBottom: 8,
+  },
+  postTitle: { fontWeight: "600", fontSize: 13, marginBottom: 4 },
+  postBody: { fontSize: 12, color: "#555" },
+  input: {
+    borderWidth: 1,
+    borderColor: "#ccc",
+    borderRadius: 6,
+    padding: 10,
+    marginBottom: 10,
+    fontSize: 14,
+  },
+  textArea: { height: 80, textAlignVertical: "top" },
+  button: {
+    backgroundColor: "#007AFF",
+    borderRadius: 6,
+    padding: 14,
+    alignItems: "center",
+    marginBottom: 12,
+  },
+  buttonText: { color: "#fff", fontWeight: "bold", fontSize: 15 },
+  error: { color: "red", marginBottom: 8 },
+  spinner: { marginVertical: 16 },
+  resultBox: {
+    backgroundColor: "#e6ffe6",
+    borderRadius: 6,
+    padding: 12,
+  },
+  resultLabel: { fontWeight: "bold", marginBottom: 4, fontSize: 13 },
+  resultText: { fontSize: 13 },
+});
